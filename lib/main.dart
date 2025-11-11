@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'menu.dart';
+import 'package:humming_crew/screens/menu.dart';
+
 
 void main() {
   runApp(const MyApp());
