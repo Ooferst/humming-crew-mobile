@@ -88,3 +88,37 @@ State tetap terjaga					State direset ke awal
 
 Hot Reload digunakan saat develop untuk melihat perubahan cepat tanpa kehilangan state current. 
 Hot Restart digunakan ketika perubahan membutuhkan reset state aplikasi.
+
+
+Tugas 8
+
+1. Perbedaan Navigator.push() vs Navigator.pushReplacement()
+push(): Tambah halaman baru, bisa back ke sebelumnya
+pushReplacement(): Ganti halaman saat ini, ga bisa back
+
+Di Football Shop:
+
+push(): Buat tombol "Add Products" (bisa back)
+
+pushReplacement(): Buat drawer navigation
+
+2. Pemanfaatan Hierarchy Widget
+Manfaat:
+	Scaffold: Layout dasar dengan app bar, drawer, dan body
+	AppBar: Konsisten di semua halaman dengan judul dan warna brand
+	Drawer: Navigasi yang sama di seluruh aplikasi
+	Konsistensi UX dan memudahkan maintenance
+	
+3. Kelebihan Layout Widget untuk Form
+Padding: Memberikan jarak antar elemen form untuk readability
+SingleChildScrollView: Mencegah overflow ketika keyboard muncul dan form panjang
+ListView: Scrollable content untuk drawer navigation
+
+4. Penyesuaian Warna Tema
+Konsistensi Brand:
+	AppBar: Color.fromARGB(255, 21, 129, 218)
+	Button: Warna biru konsisten
+	Drawer header: Warna brand yang sama
+	Card: Warna biru untuk konsistensi visual
+Hasil: Aplikasi memiliki identitas visual yang kuat dan konsisten dengan brand Football Shop.
+
